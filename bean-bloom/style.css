@@ -1,0 +1,93 @@
+/* --- CSS Variables for easy color management --- */
+:root {
+    --primary-green: #4a774a; /* From your logo */
+    --dark-brown: #4d413c;   /* From your logo */
+    --background-light: #f7f6f2; /* A soft, warm off-white */
+    --text-color: #333333;
+    --font-headings: 'Poppins', sans-serif;
+    --font-body: 'Lato', sans-serif;
+}
+
+/* --- Basic Reset & Body Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-light);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* --- Header & Logo Styling --- */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* --- Menu Container --- */
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto; /* This centers the container */
+    padding: 2rem 1rem;
+}
+
+/* --- Menu Category Styling --- */
+.menu-category {
+    margin-bottom: 3rem; /* Space between categories */
+}
+
+.menu-category h2 {
+    font-family: var(--font-headings);
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--primary-green);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--dark-brown);
+}
+
+/* --- Individual Menu Item Styling --- */
+.menu-item {
+    display: flex;
+    justify-content: space-between; /* Pushes name and price to ends */
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.item-name {
+    font-family: var(--font-headings);
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--dark-brown);
+}
+
+.item-price {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary-green);
+    white-space: nowrap; /* Prevents price from wrapping */
+    padding-left: 1rem; /* Ensures space between name and price */
+}
+
+/* --- Footer Styling --- */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #888888;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+}
