@@ -14,7 +14,7 @@ Here you can find the individual menu projects hosted in this repository.
 
 A digital menu designed for a modern, fictional coffee shop called "Bean & Bloom." This project features a clean layout, on-brand styling, and a complete menu structure.
 
-* **[➡️ Live Demo](https://wuebetmistireselassie.github.io/QR-MENU/bean-bloom/)**
+* **[➡️ Live Demo](https://qr-menu-ethiopia.netlify.app/)**
 * **[📂 View Code](https://github.com/wuebetmistireselassie/QR-MENU/tree/main/bean-bloom)**
 ---
 
